@@ -1,8 +1,28 @@
 body{
-    color:#222222; 
+    margin: 0 auto; 
 }
-
-
-#widget {
-    color: #999999; 
+ul{
+    list-style: none; 
+}
+li{
+    display: inline; 
+}
+a{
+    text-decoration: none; 
+}
+.left{
+    float:left; 
+}
+.right{
+    float:right; 
+}
+.clear{
+    clear:both;
+}
+.wrapper{
+    margin: 0 auto; 
+    width:50%; 
+}
+#bottom{
+    background-color: darkgray;
 }

@@ -1,12 +1,113 @@
 <!DOCTYPE HTML> 
 <html>
-    <head></head>
+    <head>
+        <meta charset ="UTF-8"> 
+        <meta name ="keywords" content="Portfolio, Web designer, UI, UX, HTML prototyper"> 
+        <meta name ="viewport" content="width=device-width, initial-scale =1.0"> 
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+    </head>
     <body>
-        <header> </header>
-        <div id="slider"> </div>
-        <div id="widget"> </div>
-        <div id="content"> </div>
-        <div id="bottom"> </div>
-        <footer> </footer>
+        <header>
+            <div class="logo-container left"> 
+                <a id="logo" href="./index.html"> mylogo here </a>
+            </div>
+            <nav class="menu right"> 
+                <ul class="menu-list" > 
+                    <li class="menu-item">
+                        <a class="menu-item-link" href="./index.html" title="Home" >home</a>
+                    </li>
+                    <li class="menu-item"> 
+                        <a class="menu-item-link" href="./about.html" title="About" >about</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-item-link" href="./work.html" title="Work" >work</a>
+                    </li>
+                    <li class="menu-item"> 
+                        <a class="menu-item-link" href="./contact.html" title="Contact" >contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="clear"> </div>
+        </header>
+        <div id="slider"> 
+            <div class="slider-img"> 
+                <img src="./img/banner.jpg" alt="banner"> 
+            </div>
+            <div class="slider-text"> 
+                <h1> Hello I am Lan</h1>
+                <h2> Web Designer</h2>
+            </div>
+             
+        </div>
+        <div class="wrapper"> 
+            <div id="widget-bar">
+                <aside class="widget-item left">
+                    <h2> A web designer based in Saigon </h2>    
+                    <h3>Specialization</h3>
+                    <p> UI/UX Design </p>
+                    <p> HTML/ CSS/ Javascript Prototype </p>
+                    <p> UI Animation </p>
+                </aside>
+                <aside class="widget-item right">
+                    <h3>View my CV </h3>
+                    <button type="button"> Download cv.pdf </button>
+                </aside>
+                <div class="clear"> </div>
+            </div>
+            <div id="work-bar"> 
+                <div class="work-item">
+                    <div class="work-bg"><img src="./img/work%20(1).jpg" alt="work item"> </div>
+                    <div class="work-info">
+                        <h3>Prototype</h3>
+                        <p> UX Design </p>
+                    </div>
+                </div> 
+                <div class="work-item">
+                    <div class="work-bg"><img src="./img/work%20(2).jpg" alt="work item"> </div>
+                    <div class="work-info">
+                        <h3>Application </h3>
+                        <p> UX Design </p>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="work-bg"><img src="./img/work%20(3).jpg" alt="work item"> </div>
+                    <div class="work-info">
+                        <h3>Use case</h3>
+                        <p> UX Design </p>
+                    </div>
+                </div>
+</div>
+            <div id="bottom">
+                <aside class="related-links">
+                    <h3> My Blog </h3>
+                    <ul id="article"> 
+                        <li class="my-article-item">
+                            <a class="related-link-item" href=# > My first article</a>
+                        </li>
+                    </ul>
+                    <ul class="my-article-list"> 
+                        <li class="my-article-item">
+                            <a class="related-link-item" href=# > My second article</a>
+                        </li>
+                    </ul>
+                </aside>
+                <aside class="social-network">
+                    <ul id="social">
+                        <li class="social-link">
+                            <a href=#> <img src="img/facebook32.png" alt="icon facebook"> </a>
+                        </li>
+                        <li class="social-link">
+                            <a href=#> <img src="img/linkedin32.png" alt="icon linked in"> </a>
+                        </li>
+                        <li class="social-link">
+                            <a href=#> <img src="img/behance32.png" alt="icon behance"> </a>
+                        </li>
+                    </ul> 
+                </aside>
+            </div>
+        </div>
+        <footer>
+            <p> Vanphamnhatlan 2015. All's right reserved. </p>
+        </footer>
     </body>
 </html>
