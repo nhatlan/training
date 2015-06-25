@@ -8,31 +8,31 @@
     </head>
     <body>
         <header>
-            <div class="logo-container left"> 
-                <a id="logo" href="./index.html"> mylogo here </a>
+            <div class="wrapper"> 
+                <div class="logo-container left"> 
+                    <a id="logo" href="./index.html"> mylogo here </a>
+                </div>
+                <nav class="menu right"> 
+                    <ul class="menu-list" > 
+                        <li class="menu-item">
+                            <a class="menu-item-link" href="./index.html" title="Home" >home</a>
+                        </li>
+                        <li class="menu-item"> 
+                            <a class="menu-item-link" href="./about.html" title="About" >about</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item-link" href="./work.html" title="Work" >work</a>
+                        </li>
+                        <li class="menu-item"> 
+                            <a class="menu-item-link" href="./contact.html" title="Contact" >contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="clear"> </div>
             </div>
-            <nav class="menu right"> 
-                <ul class="menu-list" > 
-                    <li class="menu-item">
-                        <a class="menu-item-link" href="./index.html" title="Home" >home</a>
-                    </li>
-                    <li class="menu-item"> 
-                        <a class="menu-item-link" href="./about.html" title="About" >about</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-item-link" href="./work.html" title="Work" >work</a>
-                    </li>
-                    <li class="menu-item"> 
-                        <a class="menu-item-link" href="./contact.html" title="Contact" >contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="clear"> </div>
         </header>
-        <div id="slider"> 
-            <div class="slider-img"> 
-                <img src="./img/banner.jpg" alt="banner"> 
-            </div>
+        <div id="slider">  
+            <img src="./img/banner.jpg" alt="banner"> 
             <div class="slider-text"> 
                 <h1> Hello I am Lan</h1>
                 <h2> Web Designer</h2>
@@ -56,27 +56,67 @@
             </div>
             <div id="work-bar"> 
                 <div class="work-item">
-                    <div class="work-bg"><img src="./img/work%20(1).jpg" alt="work item"> </div>
+                    <div class="work-bg">
+                        <img srcset="./img/large%20(1).jpg  1024w,
+                                      ./img/large%20(1).jpg 640w,
+                                      ./img/large%20(1).jpg  320w"
+                            sizes="(min-width: 20em) 15.5vw,
+                                      100vw"
+                           src="./img/small%20(1).jpg"
+                           alt="work item" />
+                    </div>
                     <div class="work-info">
-                        <h3>Prototype</h3>
+                        <p>Prototype</p>
                         <p> UX Design </p>
                     </div>
                 </div> 
                 <div class="work-item">
-                    <div class="work-bg"><img src="./img/work%20(2).jpg" alt="work item"> </div>
+                    <div class="work-bg">
+                        <img srcset="./img/large%20(2).jpg  1024w,
+                                      ./img/large%20(2).jpg 640w,
+                                      ./img/large%20(2).jpg  320w"
+                            sizes="(min-width: 20em) 15.5vw,
+                                      100vw"
+                           src="./img/small%20(2).jpg"
+                           alt="work item" />
+                    </div>
                     <div class="work-info">
-                        <h3>Application </h3>
+                        <p>Application </p>
                         <p> UX Design </p>
                     </div>
                 </div>
                 <div class="work-item">
-                    <div class="work-bg"><img src="./img/work%20(3).jpg" alt="work item"> </div>
+                    <div class="work-bg">
+                        <img srcset="./img/large%20(3).jpg  1024w,
+                                      ./img/large%20(3).jpg 640w,
+                                      ./img/large%20(3).jpg  320w"
+                            sizes="(min-width: 20em) 15.5vw,
+                                      100vw"
+                           src="./img/small%20(3).jpg"
+                           alt="work item" />
+                    </div>
                     <div class="work-info">
-                        <h3>Use case</h3>
+                        <p>Use case</p>
                         <p> UX Design </p>
                     </div>
                 </div>
-</div>
+                <div class="work-item">
+                    <div class="work-bg">
+                        <img srcset="./img/large%20(4).jpg  1024w,
+                                      ./img/large%20(4).jpg 640w,
+                                      ./img/large%20(4).jpg  320w"
+                            sizes="(min-width: 20em) 15.5vw,
+                                      100vw"
+                           src="./img/small%20(4).jpg"
+                           alt="work item" />
+                    </div>
+                    <div class="work-info">
+                        <p>Movement </p>
+                        <p> UI Design Animation</p>
+                    </div>
+                </div>
+                <div class="clear"> </div>
+            </div>
             <div id="bottom">
                 <aside class="related-links">
                     <h3> My Blog </h3>
