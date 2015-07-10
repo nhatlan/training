@@ -40,17 +40,18 @@
 
 </p>
         </section>
-        <section>
+        <section class="calltoaction">
             <h2>Why spend $1000s hiring a designer?</h2>
-            <h3>
-                “I highly recommend it for developers and product builders I cr  good enough design myself, without much time or money, and was able to launch my product. —Eric Davis, @edavis10
+            <div class ="testimonial">
+                <p>
+                    “I highly recommend it for developers and product builders I cr  good enough design myself, without much time or money, and was able to launch my product. —Eric Davis, @edavis10
+                </p>
+                <p>
+                    “Design is often described as something mysterious, that can only  accomplished by the talented few. That's bullshit. Design is a sk  can be learned. It's also a process that can be reverse-engineer 
 
-            </h3>
-            <h3>
-                “Design is often described as something mysterious, that can only  accomplished by the talented few. That's bullshit. Design is a sk  can be learned. It's also a process that can be reverse-engineer 
-
-degree. Jarrod's book will give you a huge head-start in both. —Jarkko Laine, @jarkko
-            </h3>
+        degree. Jarrod's book will give you a huge head-start in both. —Jarkko Laine, @jarkko
+                </p>
+            </div>
             <h2>What's in the book</h2>
             <ul>
                 <li>155 p PDF</li>
@@ -60,11 +61,9 @@ degree. Jarrod's book will give you a huge head-start in both. —Jarkko Laine, 
                 <li>cheatsheet</li>
             </ul>
         </section>
-        <section>
-            <h3>Revised Edition</h3>
-            <p>Includes new content and revisions requested by readers. Buy Now or Download a Sample</p>
-        </section>   
-        <section>
+        <h3>Revised Edition</h3>
+           <p>Includes new content and revisions requested by readers. Buy Now or Download a Sample</p>   
+        <section class="faq">
             <h4>FAQ section</h4>
             <p>Why should you become the designer?
 Because designers are expensive and templates are created without any understanding of the problem they propose to solve. With basic
@@ -89,8 +88,8 @@ the PDF version of this eBook. The .ePub and .Mobi formats provi  limited contro
 
 and useful for quick reference.</p>
         </section>     
-        <section>
-            <h4>About </h4>
+        <section class="about">
+            <h3>About </h3>
             <p>I’m a web designer and bootstrapper. I believe in bootstrappers a 
 
 the businesses they are building, and I know design can help them succeed. I’ve completed work for such diverse clients as funded   startups, financial companies, movie studios, and consumer brands working at agencies and as a freelancer. I write code. I prefer   things done to just talking about it. I want to help your startu  with practical but effective design.
